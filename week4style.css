@@ -1,0 +1,68 @@
+#one{
+    background-color: blue;
+    height: 10rem;
+}
+#two{
+    background-color: orange;
+    height: 10rem;
+
+
+}
+#three{
+    background-color: yellow;
+    height: 10rem;
+}
+html{
+    font-size: 12px;
+
+}
+header, footer{
+    background-color: red;
+    height: 5rem;
+}
+main{
+    display: flex;
+    flex-direction: column;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width:900px){
+main{
+    height: 40rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+#one{
+    width: 70%;
+    height: 20rem;
+}
+#two{
+    width: 70%;
+    height: 20rem;
+}
+#three{
+    width: 30%;
+    height: 20rem;
+}
+}
+@media screen  and (min-width:600px) and (max-width:900px){
+    main{
+        height: 40rem;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #one{
+      height: 50%;
+    }
+    #two{
+        height: 50%;
+    }
+    #three{
+        height: 100%;
+    }
+
+}
